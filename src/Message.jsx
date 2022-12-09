@@ -1,5 +1,6 @@
 import { useState } from 'react';
 
+
 function Message() {
     
 
@@ -36,6 +37,8 @@ function Message() {
     };
 
     
+   
+
 
     return (
       <div>
@@ -51,6 +54,7 @@ function Message() {
                              <button onClick={() => handlerRemove(item.id)}>
                                 X
                              </button>
+                           
                         </div>
                     </div>
                 </div>
